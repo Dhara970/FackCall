@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/main_layout" android:background="@drawable/s7_theme" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/caller_image_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/name_n_numb_layout">
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/image_of_caller" android:visibility="visible" android:layout_width="@dimen/_120sdp" android:layout_height="@dimen/_120sdp" android:layout_margin="@dimen/_10sdp" android:src="@mipmap/girlfriend" android:layout_alignParentTop="true" android:layout_centerInParent="true"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/_15sdp" android:textColor="@color/white" android:id="@+id/timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_30sdp" android:text="Incoming Call " android:layout_centerHorizontal="true"/>
+    <Chronometer android:textSize="18sp" android:textColor="@color/white" android:id="@+id/chronometer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="@dimen/_10sdp" android:layout_marginRight="10dp" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/name_n_numb_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_30sdp" android:layout_below="@+id/timer">
+        <TextView android:textSize="@dimen/_25sdp" android:textColor="@color/white" android:id="@+id/name_of_contact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Girl Friend"/>
+        <TextView android:textSize="@dimen/_15sdp" android:textColor="@color/white" android:id="@+id/number_of_contact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="123465798"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/action_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_25sdp" android:layout_marginTop="@dimen/_20sdp" android:layout_marginRight="@dimen/_25sdp" android:layout_marginBottom="@dimen/_20sdp" android:layout_above="@+id/bottom_layout">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_10sdp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/add_call_layout" android:background="?attr/selectableItemBackground" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/add_call"/>
+                <TextView android:textSize="@dimen/_10sdp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/add_call"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/speaker_layout" android:background="?attr/selectableItemBackground" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/speaker"/>
+                <TextView android:textSize="@dimen/_10sdp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/speaker"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/keypad_layout" android:background="?attr/selectableItemBackground" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/keypad"/>
+                <TextView android:textSize="@dimen/_10sdp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/keypad"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_25sdp" android:layout_below="@+id/btoom_call_layout">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/mute_layout" android:background="?attr/selectableItemBackground" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:id="@+id/call_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/mute"/>
+                <TextView android:textSize="@dimen/_10sdp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/mute"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/hold_call" android:background="?attr/selectableItemBackground" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:id="@+id/message_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/hold"/>
+                <TextView android:textSize="@dimen/_10sdp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/hold"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/notes_add" android:background="?attr/selectableItemBackground" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:id="@+id/video_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/notes"/>
+                <TextView android:textSize="@dimen/_10sdp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/notes"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/bottom_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_60sdp" android:layout_alignParentBottom="true">
+        <ImageView android:id="@+id/cancel_call_new" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/reject_a51" android:layout_centerInParent="true"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/reject_call_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_30sdp">
+            <ImageView android:id="@+id/cancel_call" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/reject_a51"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/pick_call_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/_30sdp" android:layout_alignParentRight="true">
+            <ImageView android:id="@+id/pick_call" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/accept_a51"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/reject_with_messa" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="center" android:background="@mipmap/send_message_a51" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/_12sdp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/reject_with_message" android:background="?attr/selectableItemBackground" android:padding="@dimen/_10sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send_message" android:layout_alignParentBottom="true"/>
+    </LinearLayout>
+</RelativeLayout>

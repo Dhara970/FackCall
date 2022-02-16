@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Privacy Policy"
+        android:textColor="@color/text_color_dark"
+        android:textSize="30dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(“Soft Droid” “Services”, “softdroid”, we, us,  our  or  ours  ) collects information from you in order to provide better services and a better user experience. Your privacy is on top of all priorities to us, and this Privacy Policy explains how we collect, use, and protect your information."
+                android:textColor="@color/text_color_dark"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="By installing and using the apps, you agree to this privacy policy and give an explicit and informed consent to the processing. If you do not agree, please do not install and use the apps. "
+                android:textColor="@color/text_color_dark"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Privacy Policy for Mobile Applications "
+                android:textColor="@color/text_color_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1. Effective date and update:"
+                android:textColor="@color/text_color_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Effective start date of this privacy policy: 3rd December 2014  "
+                android:textColor="@color/text_color_dark"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2. Non-personal Data:"
+                android:textColor="@color/text_color_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Non-personal data means information that, by itself, does not personally identify you. We may collect Non-personal data such as your device model number, operating system version, country code and other properties for purposes of managing the apps and communicating with you."
+                android:textColor="@color/text_color_dark"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Disclaimers:"
+                android:textColor="@color/text_color_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="a). softdroid will not assume any responsibility for any of your personal information that is disclosed for your own reasons (for example, when you voluntarily disclose to other people your password or when you share your account with other people).  b). softdroid assumes no responsibility for any personal information that is lost, disclosed, or falsified due to forces beyond softdroid&apos;s control, including but not limited to events that may affect normal network operations, such as hacker attack, intrusion or attack of computer virus and temporary closure of websites due to government regulations or actions.  c). softdroid assumes no responsibility when it or a third party uses your personal information in accordance with provisions of relevant laws or regulations or this privacy policy. "
+                android:textColor="@color/text_color_dark"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Ad serving Technology"
+                android:textColor="@color/text_color_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:onClick="admob_policy_link_clicked"
+                android:text="@string/privacy_policy_05_point"
+                android:textColor="@color/text_color_dark"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Location Data"
+                android:textColor="@color/text_color_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Some of the apps may request your Location data for a functional purpose. We may use various technologies to determine location, such as GPS, Wi-Fi or other network-based data such as IP address. Your GPS geo-location is not accessed without your consent. We do NOT try to store / save / gather your data. So we do NOT provide your Location data for advertising networks and third parties. "
+                android:textColor="@color/text_color_dark"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. Personal Data"
+                android:textColor="@color/text_color_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Personal data means personally identifiable information that specifically identifies you as an individual (e.g. your name, email address). We never collect and / or store Personal data"
+                android:textColor="@color/text_color_dark"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7. Third party terms and conditions"
+                android:textColor="@color/text_color_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Please note that your access to and use of the apps may be subject to certain third-party terms and conditions and privacy policies. You recognize and agree that we is not liable for any such third-party terms and conditions and any third party&apos;s use of your Personal data. Here are links to the privacy policies of a few of the distributors we use: Google - Privacy Policy "
+                android:textColor="@color/text_color_dark"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8. Disclosure and Transfer of Personal Data"
+                android:textColor="@color/text_color_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="We disclose information to respond to subpoenas, court orders and other legal processes as well as to establish/exercise our legal rights or defend against legal claims. We will share Personal data and Non-personal data in order to investigate, prevent or take action against illegal activities, suspected fraud, potential threats to the physical safety of any person, violations of our Terms of Use or as otherwise required by law. "
+                android:textColor="@color/text_color_dark"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9. Changes to this Privacy Policy"
+                android:textColor="@color/text_color_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="softdroid may, in its sole discretion, change this Privacy Policy from time to time, any and all changes will be reflected here and the date new versions are posted will be stated at the top of this Privacy Policy, so please review it periodically.  "
+                android:textColor="@color/text_color_dark"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10. Contact us"
+                android:textColor="@color/text_color_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:paddingBottom="25dp"
+                android:text="@string/privacy_policy_10_point"
+                android:textColor="@color/text_color_dark"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/privacy_policy_10_point"
+                android:textColor="@color/text_color_dark"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:onClick="fb_link_clicked"
+                android:text="@string/privacy_policy_11_point"
+                android:textColor="@color/text_color_dark"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:onClick="email_link_clicked"
+                android:paddingBottom="25dp"
+                android:text="@string/privacy_policy_12_point"
+                android:textColor="@color/text_color_dark"
+                android:textSize="13dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

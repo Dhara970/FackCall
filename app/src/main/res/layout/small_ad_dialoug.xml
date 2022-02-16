@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/roundshapenew" android:padding="@dimen/_5sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_20sdp">
+    <RelativeLayout android:id="@+id/mymain" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/main_linear_layout" android:padding="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@+id/ad_image" android:layout_width="150dp" android:layout_height="150dp" android:src="@mipmap/ic_launcher"/>
+            <TextView android:textColor="#000" android:gravity="center" android:id="@+id/apptitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_3sdp" android:text="App Title"/>
+            <TextView android:gravity="center" android:id="@+id/appdesc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="App Description"/>
+            <Button android:textColor="#ffff" android:id="@+id/download" android:background="@drawable/call_now_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_5sdp" android:minWidth="200dp" android:text="Download " android:inputType="textCapCharacters"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/close" android:background="@mipmap/close_dialoug" android:layout_width="40dp" android:layout_height="40dp" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</RelativeLayout>

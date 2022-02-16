@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/splash">
+
+    <LinearLayout
+        android:id="@+id/lets_start"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="top|center_vertical|center_horizontal|center"
+        android:layout_marginTop="@dimen/_130sdp"
+        android:gravity="top|center_vertical|center_horizontal|center"
+        android:minWidth="@dimen/_100sdp"
+        android:visibility="gone">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_180sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/hidePbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/splash_pregress_btn_bg"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progrezzbars"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:progress="0"
+                android:progressDrawable="@drawable/progressdrawable"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
